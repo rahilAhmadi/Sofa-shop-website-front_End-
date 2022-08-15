@@ -1,0 +1,418 @@
+@import url(../css/reset.css);
+@font-face {
+    font-family: 'vazir';
+    src: url(../font/Vazirmatn-Light.woff2);
+}
+@font-face {
+    font-family: 'vazir-bold';
+    src: url(../font/Vazirmatn-ExtraBold.woff2);
+}
+body{
+    font-family: 'vazir';
+    direction: rtl;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+    padding: 0 15px;
+}
+/* header */
+header{
+    width: 100%;
+}
+header nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+header nav .nav-bar{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .nav-right{
+    display: flex;
+}
+header nav .nav-right ul{
+    display: flex;
+}
+header nav .nav-right ul li{
+    margin: 0 10px;
+}
+header nav .nav-right ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 17px;
+}
+header nav .nav-left ul{
+    display: flex;
+    margin-left: 50px;
+}
+header nav .nav-left ul li{
+    margin: 0 10px;
+}
+header nav .nav-left ul li a {
+   font-size: 20px;
+   color: #000000;
+}
+header #slide{
+    display: flex;
+    width: 100%;
+    height: 900px;
+}
+header #slide .slider span{
+    position: absolute;
+    left: 35%;
+    top: 32%;
+    font-size: 100px;
+    font-family: 'vazir-bold';
+    color: #ebebebbd;
+
+}
+header #slide .slider{
+        background-image: url(../image/slide.jpg);
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+header #slide .slider .slide-description{
+   position: absolute;
+   left: 0%;
+   top: 35%;
+}
+header #slide .slider .slide-description h1{
+   font-size: 100px;
+   font-weight: bolder;
+   margin-right: 100px;
+   color: #505050;
+   font-family: 'vazir-bold';
+   margin-top: 25px;
+}
+header #slide .slider .slide-description h2{
+   font-size: 60px;
+   font-weight: bold;
+   padding-left: 30px;
+   color: #222;
+   font-family:'vazir-bold';
+}
+/* hanging-lamp */
+#hanging-lamp{
+    width: 100%;
+    display: flex;
+     background-color: #c56211;
+     position: relative;
+}
+#hanging-lamp .test{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 90%;
+    background-color: #fff;
+}
+#hanging-lamp .hanging-lamp{
+    display: flex;
+    justify-content: space-between;
+}
+#hanging-lamp .hanging-lamp .hanging-right{ 
+    display: flex;
+    background-color: #fff;
+    width: 65%;
+}
+#hanging-lamp .hanging-lamp .hanging-right .description-right{ 
+    position: relative;
+}
+#hanging-lamp .hanging-lamp .hanging-right .description-right h1{ 
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: bold;
+     color: #c56211;
+}
+#hanging-lamp .hanging-lamp .hanging-right .description-right p{ 
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+#hanging-lamp .hanging-lamp .hanging-right .description-right a{ 
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #c56211;
+    position: absolute;
+    left: 20px;
+
+}
+#hanging-lamp .hanging-lamp .hanging-right .img-right img{ 
+    height: 200px;
+    width: 300px;
+}
+
+#hanging-lamp .hanging-lamp .hanging-left{ 
+ display: flex;
+align-items: center;
+color: #fff;
+width: 35%;
+text-align: center;
+}
+#hanging-lamp .hanging-lamp .hanging-left h1{ 
+ font-size: 40px;
+ margin-top: 10px;
+ font-weight: bold;
+}
+#hanging-lamp .hanging-lamp .hanging-left p{ 
+ font-size: 20px;
+ margin-top: 20px;
+}
+#hanging-lamp .hanging-lamp .hanging-left .description-left{ 
+ width: 100%;
+ 
+}
+/* hanging lamp two */
+#hanging-lamp-two{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+}
+.hanging-lamp-two{
+    display: flex;
+}
+#hanging-lamp-two .test-two{
+    background-image: url(../image/hang.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 37%;
+    
+}
+#hanging-lamp-two .hang-two-right{
+    width: 65%;
+    height: 600px;
+}
+#hanging-lamp-two .hang-two-left{
+    width: 35%;
+    height: 600px;
+}
+#hanging-lamp-two .hang-two-left ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#hanging-lamp-two .hang-two-left ul li{
+    width: 50%;
+    margin-bottom: 15px;
+}
+#hanging-lamp-two .hang-two-left ul li img{ 
+width: 200px;
+height: 220px;
+}
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul li h3{
+    margin: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul li h6{
+    margin: 8px;
+    font-size: 14px;
+}
+/* sofa */
+#sofa{
+    display: flex;
+    width: 100%;
+     background-color: #294152;
+     position: relative;
+}
+#sofa .sofa-cover{
+    position: absolute;
+    top: 0;
+    right: 93%;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+}
+#sofa .sofa{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+#sofa .sofa .sofa-right{ 
+    display: flex;
+    background-color: #fff;
+    width: 65%;
+}
+#sofa .sofa .sofa-right .description-right{ 
+    position: relative;
+    padding: 20px 20px;
+}
+#sofa .sofa .sofa-right .description-right h1{ 
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #294152;
+}
+#sofa .sofa .sofa-right .description-right p{ 
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+#sofa .sofa .sofa-right .description-right a{ 
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #294152;
+    position: absolute;
+    left: 20px;
+
+}
+#sofa .sofa .sofa-right .img-right img{ 
+    height:100%;
+    width: 100%;
+}
+
+#sofa .sofa .sofa-left{ 
+ display: flex;
+align-items: center;
+color: #fff;
+width: 35%;
+text-align: center;
+}
+#sofa .sofa .sofa-left h1{ 
+ font-size: 40px;
+ margin-top: 10px;
+ font-weight: bold;
+}
+#sofa .sofa .sofa-left p{ 
+ font-size: 20px;
+ margin-top: 20px;
+}
+#sofa .sofa .sofa-left .description-left{ 
+ width: 100%;
+ 
+}
+/* sofa two */
+#sofa-two{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+}
+.sofa-two{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#sofa-two .test-sofa-two{
+    background-image: url(../image/5.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 37%;
+    bottom: 0;
+    left: 0;
+    
+}
+#sofa-two .sofa-right{
+    width: 65%;
+    height: 600px;
+}
+#sofa-two .sofa-left{
+    width: 35%;
+    height: 600px;
+}
+#sofa-two .sofa-left ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#sofa-two .sofa-left ul li{
+    width: 50%;
+    margin-bottom: 15px;
+}
+#sofa-two .sofa-left ul li img{ 
+width: 210px;
+height: 220px;
+}
+#sofa-two .sofa-two .sofa-left ul li h3{
+    margin: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#sofa-two .sofa-two .sofa-left ul li h6{
+    margin: 8px;
+    font-size: 14px;
+}
+/* counters */
+#counters{
+    display: flex;
+    width: 100%;
+    background-color: #9ac0fc;
+    padding: 120px 0;
+}
+#counters .counters{
+    width: 100%;
+    display: flex;
+}
+#counters .counters .counter-item{
+    width: 25%;
+    text-align: center;
+}
+#counters .counters .counter-item svg{
+    font-size: 40px;
+}
+#counters .counters .counter-item .counter{
+    margin: 50px 0;
+    font-size: 25px;
+}
+#counters .counters .counter-item h5{
+    font-size: 20px;
+}
+/* footer */
+#footer{
+    background-color: #202020;
+    padding: 80px 0;
+    display: flex;
+}
+.footer{
+    text-align: center;
+    width: 100%;
+}
+.footer h2{
+    color:  #Fff;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+ .footer ul{
+    display: flex;
+    justify-content: center;
+ }
+ .footer ul li{
+    margin: 0 10px;
+ }
+ .footer ul li a{
+    color: #fff;
+ }
+ .footer ul li a svg{
+    font-size: 18px;
+ }
+ .footer .footer-desc{
+    border-top: 1px solid #131313;
+    padding-top: 40px;
+    width: 500px;
+    margin:40px auto;
+ }
+ .footer .footer-desc p{
+    line-height: 25px;
+    color: #fff;
+ }
